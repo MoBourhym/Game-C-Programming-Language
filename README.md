@@ -26,9 +26,9 @@ Ensure you have GCC (GNU Compiler Collection) installed on your system.
 
 ## Contributing
 
-- [Abderzzak Haddani](https://github.com/HADDANIAbdu)
+ [@Abderzzak Haddani](https://github.com/HADDANIAbdu)
 
 ## Screenshots
 
-![Gameplay Screenshot 1](screenshots/gameplay_1.png)
-![Gameplay Screenshot 2](screenshots/gameplay_2.png)
+![Gameplay Screenshot 1](screenshots/Menu.png)
+![Gameplay Screenshot 2](screenshots/Game.png)
