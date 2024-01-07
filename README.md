@@ -30,5 +30,5 @@ Ensure you have GCC (GNU Compiler Collection) installed on your system.
 
 ## Screenshots
 
-![Gameplay Screenshot 1](screenshots/Menu.png)
-![Gameplay Screenshot 2](screenshots/Game.png)
+![Gameplay Screenshot 1](screenshots/Menu.jpg)
+![Gameplay Screenshot 2](screenshots/Game.jpg)
