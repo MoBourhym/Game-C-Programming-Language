@@ -208,7 +208,7 @@ void colesion_test(Ball_str Balle, Position Snoopy, char *key, int *p_hearts){
     }
 }
 int drawFrontMenu() {
-    int keyInput;
+    char keyInput;
     goto_xy(47, 1);
     printf("=====================================================");
     goto_xy(47, 2);

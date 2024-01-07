@@ -31,7 +31,7 @@ int *p_pause = &pause;
 int obstacle = 0;
 int *p_obstacle = &obstacle;
 int hearts = 3;  // Number of hearts
-int p_hearts = &hearts;
+int *p_hearts = &hearts;
 int timer = 300;  // Initial timer value in seconds
 
 void initialize();
@@ -60,7 +60,7 @@ int main(){
 
 
 
-initialize(){
+void initialize(){
     int i;
     srand(time(NULL));
     Snoopy.x = 20, Snoopy.y = 12; //initialiser la position de snoopy
@@ -80,7 +80,7 @@ initialize(){
     Ball.Dir_x = 1, Ball.Dir_y = 1;
 }
 
-initialize_game(){
+void initialize_game(){
     char map[MAP_SIZE_H][MAP_SIZE_W] ={0};
     draw_Wall(map);
     draw_Snoopy(Snoopy.x, Snoopy.y);
@@ -94,7 +94,7 @@ initialize_game(){
     for(i=0 ; i<4 ; i++) draw_Obstacle(i, Obstacle_tab);
 }
 
-game_logic(){
+void game_logic(){
     goto_xy(Snoopy.x, Snoopy.y);
     printf(" ");
     if(_kbhit()){
@@ -123,7 +123,7 @@ game_logic(){
     if(key == 'q' || timer <= 0) goto_xy(0,MAP_SIZE_H+6);
 }
 
-displayInfo(){
+void displayInfo(){
     // Display score, hearts, and timer information at the top and bottom
     goto_xy(0, 2);
     printf("\tScore: %d ", score);
