@@ -34,3 +34,4 @@ Ensure you have GCC (GNU Compiler Collection) installed on your system.
 
 ![Gameplay Screenshot 1](screenshots/Menu.jpg)
 ![Gameplay Screenshot 2](screenshots/Game.jpg)
+![Gameplay Screenshot 2](screenshots/FirstV.png)
