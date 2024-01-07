@@ -26,7 +26,9 @@ Ensure you have GCC (GNU Compiler Collection) installed on your system.
 
 ## Contributing
 
- [@Abderzzak Haddani](https://github.com/HADDANIAbdu)
+ <a href="https://github.com/MoBourhym/Game-C-Programming-Language/graphs/contributors">
+  <img src="https://contrib.rocks/image?MoBourhym/Game-C-Programming-Language" />
+</a>
 
 ## Screenshots
 
